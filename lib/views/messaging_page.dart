@@ -3,7 +3,9 @@ import 'dart:math';
 import 'package:aplicativo_maria/animations/heart_animation.dart';
 import 'package:aplicativo_maria/bloc/message_bloc.dart';
 import 'package:aplicativo_maria/components/my_snackbar.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MessaginPage extends StatelessWidget {
@@ -70,7 +72,7 @@ class MessaginPage extends StatelessWidget {
                                         Theme.of(context).colorScheme.primary,
                                   ),
                                   width: 400,
-                                  height: 400,
+                                  height: 600,
                                   child: Column(
                                     children: [
                                       Text(
